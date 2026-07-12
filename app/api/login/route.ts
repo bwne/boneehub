@@ -5,7 +5,7 @@ import { createSessionToken, SESSION_COOKIE_NAME } from "@/lib/auth";
 // variable instead of relying on the fallback below. This code runs only on
 // the server, so the value is never sent to the browser — but env vars are
 // still the safer, rotatable way to store it.
-const FALLBACK_PASSWORD = "R7!vQ2#Lm9@Xp4$Zn8^Kt1&Wc6*Hs3";
+const FALLBACK_PASSWORD = "bonenindengiyokturkixd124919";
 
 export async function POST(req: NextRequest) {
   let body: { password?: string };
